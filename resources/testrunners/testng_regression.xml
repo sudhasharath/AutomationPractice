@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="Demosphere Test automtion regression suite" verbose="1">
+ 	<test name="Demosphere Feature Testing---home">
+		<classes>
+			<class name="com.qa.Demosphere.test.HomePageTest" />
+		</classes>
+	</test>
+ 	<test name="Demosphere Feature Testing---create account">
+		<classes>
+			<class name="com.qa.Demosphere.test.CreateAccountPageTest" />
+		</classes>
+	</test>
+ 	<test name="Demosphere Feature Testing---cart">
+		<classes>
+			<class name="com.qa.Demosphere.test.CartPageTest" /> 
+		</classes>
+	</test>
+</suite>

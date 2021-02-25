@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Demosphere Test automtion regression suite" duration-ms="54527" started-at="2021-02-24T23:21:47Z" finished-at="2021-02-24T23:22:41Z">
+    <groups>
+    </groups>
+    <test name="Demosphere Feature Testing---home" duration-ms="11640" started-at="2021-02-24T23:21:47Z" finished-at="2021-02-24T23:21:58Z">
+      <class name="com.qa.Demosphere.test.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.Demosphere.test.HomePageTest@61832929]" name="setUp" is-config="true" duration-ms="8023" started-at="2021-02-24T23:21:47Z" finished-at="2021-02-24T23:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="failed_search_criteria()[pri:0, instance:com.qa.Demosphere.test.HomePageTest@61832929]" name="failed_search_criteria" duration-ms="1202" started-at="2021-02-24T23:21:55Z" finished-at="2021-02-24T23:21:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failed_search_criteria -->
+        <test-method status="PASS" signature="good_search_criteria()[pri:0, instance:com.qa.Demosphere.test.HomePageTest@61832929]" name="good_search_criteria" duration-ms="1591" started-at="2021-02-24T23:21:56Z" finished-at="2021-02-24T23:21:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- good_search_criteria -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.Demosphere.test.HomePageTest@61832929]" name="tearDown" is-config="true" duration-ms="783" started-at="2021-02-24T23:21:57Z" finished-at="2021-02-24T23:21:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.Demosphere.test.HomePageTest -->
+    </test> <!-- Demosphere Feature Testing-home -->
+    <test name="Demosphere Feature Testing---create account" duration-ms="18171" started-at="2021-02-24T23:21:58Z" finished-at="2021-02-24T23:22:16Z">
+      <class name="com.qa.Demosphere.test.CreateAccountPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.Demosphere.test.CreateAccountPageTest@204f30ec]" name="setUp" is-config="true" duration-ms="6322" started-at="2021-02-24T23:21:58Z" finished-at="2021-02-24T23:22:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verify_authentication()[pri:1, instance:com.qa.Demosphere.test.CreateAccountPageTest@204f30ec]" name="verify_authentication" duration-ms="1247" started-at="2021-02-24T23:22:05Z" finished-at="2021-02-24T23:22:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_authentication -->
+        <test-method status="PASS" signature="enter_personal_information()[pri:2, instance:com.qa.Demosphere.test.CreateAccountPageTest@204f30ec]" name="enter_personal_information" duration-ms="6370" started-at="2021-02-24T23:22:06Z" finished-at="2021-02-24T23:22:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_personal_information -->
+        <test-method status="PASS" signature="click_on_signout_link()[pri:3, instance:com.qa.Demosphere.test.CreateAccountPageTest@204f30ec]" name="click_on_signout_link" duration-ms="1336" started-at="2021-02-24T23:22:12Z" finished-at="2021-02-24T23:22:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_signout_link -->
+        <test-method status="PASS" signature="create_failed_account()[pri:4, instance:com.qa.Demosphere.test.CreateAccountPageTest@204f30ec]" name="create_failed_account" duration-ms="2137" started-at="2021-02-24T23:22:14Z" finished-at="2021-02-24T23:22:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_failed_account -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.Demosphere.test.CreateAccountPageTest@204f30ec]" name="tearDown" is-config="true" duration-ms="748" started-at="2021-02-24T23:22:16Z" finished-at="2021-02-24T23:22:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.Demosphere.test.CreateAccountPageTest -->
+    </test> <!-- Demosphere Feature Testing-create account -->
+    <test name="Demosphere Feature Testing---cart" duration-ms="24562" started-at="2021-02-24T23:22:17Z" finished-at="2021-02-24T23:22:41Z">
+      <class name="com.qa.Demosphere.test.CartPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.Demosphere.test.CartPageTest@13deb50e]" name="setUp" is-config="true" duration-ms="8121" started-at="2021-02-24T23:22:17Z" finished-at="2021-02-24T23:22:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="manipulate_cart()[pri:0, instance:com.qa.Demosphere.test.CartPageTest@13deb50e]" name="manipulate_cart" duration-ms="15620" started-at="2021-02-24T23:22:25Z" finished-at="2021-02-24T23:22:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- manipulate_cart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.Demosphere.test.CartPageTest@13deb50e]" name="tearDown" is-config="true" duration-ms="817" started-at="2021-02-24T23:22:40Z" finished-at="2021-02-24T23:22:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.Demosphere.test.CartPageTest -->
+    </test> <!-- Demosphere Feature Testing-cart -->
+  </suite> <!-- Demosphere Test automtion regression suite -->
+</testng-results>
